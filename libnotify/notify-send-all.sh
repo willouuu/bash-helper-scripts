@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Notification pour tous les utilisateurs depuis root
+
 # get list of current users
 for userLast in $(who | sort -u -k1,1 | awk '{print $1}'); do
 
